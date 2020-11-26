@@ -1,3 +1,50 @@
-.section-block {
-    display: inline-block;
+div {
+    display: block;
+}
+
+.page-banner {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-hero-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: block;
+}
+
+.banner-text {
+    font-size: 5.0vw;
+    font-weight: 300;
+}
+
+
+
+.orange-text {
+    color: orangered
+}
+
+body {
+    background-color: #1d2527;
+}
+
+.create-build-explore-container {
+    background-color: rgb(14, 14, 14);
+}
+
+.standard-text-color {
+    color: rgba(255,255,255,.5);
+}
+
+.media-image {
+    height: 150px;
+    object-fit: contain;
+    min-height: 100%;
+    max-height: none;
+    border-radius: 15% 15% 15% 15% / 10% 10% 10% 10%;
 }

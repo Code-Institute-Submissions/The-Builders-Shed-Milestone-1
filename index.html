@@ -9,12 +9,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>The Builders Shed</title>
+    <title class="orange-text">The Builders Shed</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">The Builders Shed</a>
+            <a class="navbar-brand orange-text" href="#">The Builders Shed</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,17 +33,36 @@
             </div>  
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12"><img src="/assets/images/900x300.jpg" alt="Hero Image"></div>
+            <div class="col-12 main-hero-image" >
+                <img src="assets/images/900x300.jpg" alt="Hero Image">
+            </div>
         </div>
-        <div class="row">
-            <div class="col-4"><img src="/assets/images/300x300.jpg" alt="intro image"></div><div class="col-8"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet euismod enim eu tristique. Proin aliquam, mauris non luctus sollicitudin, felis turpis auctor neque, in pharetra odio est non tellus. Suspendisse nec gravida mauris. Nunc tincidunt non ante tempus condimentum. Aenean quis tempor ex.</p></div>
+        <div class="container-fluid create-build-explore-container">
+		    <div class="row" id="create-build-explore">
+			    <div class="col page-banner">
+				  <h1 class="banner-text orange-text">Create - Build - Explore</h1>
+			    </div>
+		    </div>
+	    </div>
+            <div class="row">
+                <div class="col-md-4 media ">
+                    <img class="media-image d-none d-md-block" src="assets/images/300x300.jpg" alt="intro image">
+                </div>
+                <div class="col-sm-12 col-md-8 ">
+                    <p class="standard-text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet euismod enim eu tristique. Proin aliquam, mauris non luctus sollicitudin, felis turpis auctor neque, in pharetra odio est non tellus. Suspendisse nec gravida mauris. Nunc tincidunt non ante tempus condimentum. Aenean quis tempor ex.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="standard-text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet euismod enim eu tristique. Proin aliquam, mauris non luctus sollicitudin, felis turpis auctor neque, in pharetra odio est non tellus. Suspendisse nec gravida mauris. Nunc tincidunt non ante tempus condimentum. Aenean quis tempor ex.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="media-image" src="assets/images/300x300.jpg" alt="Aim image">
+                </div>
+            </div>
         </div>
-        <div class="section-block">
-            <div>Aim Text</div><div>Aim Image</div>
-        </div>
-    </div>
 
     <footer>
         <div>Social media links</div>
