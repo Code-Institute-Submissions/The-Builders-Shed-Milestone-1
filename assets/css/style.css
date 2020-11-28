@@ -8,10 +8,23 @@ div {
 }
 
 .main-hero-image {
+    height: 50vh;
     width: 100%;
+    background: url(../images/crop_night_electronics.jpg) no-repeat center 75%;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.main-hero-image .lead {
+    margin: 25px 0 0 0;
+    color: white;
+    text-shadow: -1px 0 #1d2527, 0 1px #1d2527, 1px 0 #1d2527, 0 -1px #1d2527;
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 h1 {
@@ -19,21 +32,26 @@ h1 {
 }
 
 .banner-text {
-    font-size: 5.0vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 4.0vw;
     font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
-
 
 .orange-text {
     color: orangered
 }
 
 body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
     background-color: #1d2527;
 }
 
 .create-build-explore-container {
+    width: 100%;
     background-color: rgb(14, 14, 14);
 }
 
@@ -42,9 +60,27 @@ body {
 }
 
 .media-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: 150px;
     object-fit: contain;
     min-height: 100%;
     max-height: none;
-    border-radius: 15% 15% 15% 15% / 10% 10% 10% 10%;
+    border-radius: 10% 10% 10% 10%;
+}
+
+.media-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-divider {
+    width: 80%;
+    height: 2px;
+    border: 0;
+    background-color: orangered;
+}
+
+.object-padding {
+    margin: 15px 15px 15px 15px;
 }
