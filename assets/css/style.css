@@ -1,10 +1,31 @@
 div {
+    display: inline-block;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
     display: block;
 }
 
 .page-banner {
     text-transform: uppercase;
     text-align: center;
+}
+
+.banner-text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2.4rem;  
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .main-hero-image {
@@ -20,33 +41,27 @@ div {
 
 .main-hero-image .lead {
     margin: 25px 0 0 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.74);
     text-shadow: -1px 0 #1d2527, 0 1px #1d2527, 1px 0 #1d2527, 0 -1px #1d2527;
     font-size: 2.4rem;
     font-weight: 400;
     text-align: center;
 }
 
-h1 {
-    display: block;
-}
-
-.banner-text {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 4.0vw;
-    font-weight: 300;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 .orange-text {
     color: orangered
 }
 
+.standard-text-color {
+    color: rgba(255,255,255,.5);
+}
+
 body {
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto;
     font-family: 'Ubuntu', sans-serif;
-    margin: 0;
     background-color: #1d2527;
 }
 
@@ -55,23 +70,21 @@ body {
     background-color: rgb(14, 14, 14);
 }
 
-.standard-text-color {
-    color: rgba(255,255,255,.5);
-}
-
 .media-image {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     height: 150px;
     object-fit: contain;
-    min-height: 100%;
-    max-height: none;
     border-radius: 10% 10% 10% 10%;
 }
 
 .media-container {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.first-image {
+    margin-top: 10px;
 }
 
 .section-divider {
@@ -81,6 +94,11 @@ body {
     background-color: orangered;
 }
 
-.object-padding {
-    margin: 15px 15px 15px 15px;
+.object-margin {
+    margin: 15px;
 }
+
+.object-padding {
+    padding: 15px;
+}
+
