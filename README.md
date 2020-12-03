@@ -37,3 +37,27 @@ UX:
 
 <p>All images are from <a href="https://unsplash.com/" rel="nofollow">Unsplash</a> <q>The internet’s source of freely-usable images.</q>
 And were edited using <a href="https://www.online-image-editor.com/" rel="nofollow">OIE</a> A free online image editor.</p>
+
+*** To do ***:- 
+Home, Services, Contact, About
+
+Change content page to services page.
+
+More information and images on the tools and equipment on the services page.
+
+Services page should include.
+Opening times, guest talk times, lesson availability times
+    free to pop in
+    fees for guest talks
+    renting equipment: what we have - how much
+
+Move image carousel to services page.
+
+Contact page: 
+Text area to send a message.
+
+A about page: More on who we are and how we've grown.
+Donations?
+Intruduce the team.
+
+Used google fonts not font awesome.
