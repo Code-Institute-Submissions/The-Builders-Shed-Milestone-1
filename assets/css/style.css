@@ -56,11 +56,28 @@ h1 {
     color: rgba(255,255,255,.5);
 }
 
+.btn-custom-color {
+    background-color: #1d2527;
+    color: orangered;
+    border-color: orangered;
+}
+
+.btn-custom-color:hover {
+    background-color: orangered;
+    color:#FFF;
+    border-color: #31347B;
+}
+
 /* NavBar custom color */
 
 .navbar-custom { 
     background-color: #1d2527; 
-} 
+}
+
+.nav-link:hover {
+    color: #00BAFF;
+    transition: 0.75s;
+}
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
@@ -119,4 +136,9 @@ body {
 
 .object-padding {
     padding: 15px;
+}
+
+.form-margin {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
