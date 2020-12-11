@@ -64,8 +64,8 @@ h1 {
 
 .btn-custom-color:hover {
     background-color: orangered;
-    color:#FFF;
-    border-color: #31347B;
+    color: #ffffff;
+    border-color: #31347B;
 }
 
 /* NavBar custom color */
@@ -185,10 +185,47 @@ body {
     margin-bottom: 0;
 }
 
-.opening-day {
-    color: orangered;
+/* times table */
+
+.workshop-timetable-day {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-.opening-day-times {
-    color: rgba(255,255,255,.5);
+.day {
+    background-color: #ff6e38;
+    color: black;
+    padding: 6px 10px 10px 10px;
+    text-align: center;
+}
+    
+.workshop-timetable-day li {
+    background-color: orangered;
+    color: black;
+    list-style-type: none;
+    margin: 10px;
+    overflow: auto;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+@media (min-width: 800px) { 
+    .workshop-timetable-day {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .day {
+        width: 150px;
+    }
+
+    .workshop-time {
+        width: 200px;
+    }
 }
