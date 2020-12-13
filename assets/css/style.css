@@ -216,17 +216,17 @@ body {
     overflow: auto;
 }
 
-/*li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}*/
-
 .workshop-time {
         border-width:2px;
         border-style:solid;
         border-color: #cf37009d;
         padding: 10px 10px 10px 10px;
     }
+
+.text-center {
+    text-align: center;
+}
+
 
 @media (min-width: 800px) { 
     .workshop-timetable-day {
