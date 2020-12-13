@@ -204,9 +204,9 @@ body {
 .tool-rental {
     padding: 10px 10px 10px 10px;
     text-align: center;
-    border-width:4px;
+    border-width:2px;
     border-style:solid;
-    border-color: #7722039d;
+    border-color: orangered;
     padding: 10px 10px 10px 10px;
 }
     
@@ -248,3 +248,4 @@ body {
         text-align: center;
     }
 }
+

@@ -43,18 +43,20 @@ Home, Services, Contact, About - done
 
 Change content page to services page. - done
 
-More information and images on the tools and equipment on the services page.
+More information and images on the tools and equipment on the services page. - started
 
 Services page should include.
 Opening times, guest talk times, lesson availability times
     free to pop in
     fees for guest talks
-    renting equipment: what we have - how much
+    renting equipment: what we have - how much -- started
 
-Move image carousel to services page.
+Move image carousel to services page. - done
 
 Contact page: 
 Text area to send a message. - done
+
+add contact information and address to footer of index.html
 
 A about page: More on who we are and how we've grown.
 Donations?
