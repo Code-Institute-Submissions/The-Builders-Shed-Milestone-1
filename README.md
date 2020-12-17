@@ -60,6 +60,13 @@ add contact information and address to footer of index.html
 
 A about page: More on who we are and how we've grown.
 Donations?
-Intruduce the team.
+Introduce the team.
 
 Used google fonts not font awesome.
+
+Open workshop - works
+Introduction to the Arduino - works
+Introduction to Python - works
+Introduction to Linux - works
+Introduction to soldering - works
+Introduction to the Raspberry PI - works

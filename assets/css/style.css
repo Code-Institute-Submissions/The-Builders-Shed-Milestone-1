@@ -3,15 +3,20 @@ div {
 }
 
 p {
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 h1 {
     display: block;
+}
+
+.nav-link {
+    color: #CD4134;
 }
 
 .page-banner {
@@ -49,21 +54,21 @@ h1 {
 }
 
 .orange-text {
-    color: orangered
+    color: #CD4134
 }
 
 .standard-text-color {
-    color: rgba(255,255,255,.5);
+    color: #B2BE89;
 }
 
 .btn-custom-color {
     background-color: #1d2527;
-    color: orangered;
-    border-color: orangered;
+    color: #CD4134;
+    border-color: #CD4134;
 }
 
 .btn-custom-color:hover {
-    background-color: orangered;
+    background-color: #CD4134;
     color: #000000;
     border-color: #000000;
 }
@@ -71,17 +76,19 @@ h1 {
 /* NavBar custom color */
 
 .navbar-custom { 
-    background-color: #1d2527; 
+    background-color: #112229; 
 }
 
+
+
 .nav-link:hover {
-    color: #00BAFF;
+    color: #1D759A;
     transition: 0.75s;
 }
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
-    color: orangered; 
+    color: #CD4134; 
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -89,7 +96,7 @@ h1 {
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: orangered;
+  border-color: #CD4134;
 } 
 
 body {
@@ -98,7 +105,7 @@ body {
     margin-left: auto ;
     margin-right: auto;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #1d2527;
+    background-color: #112229;
 }
 
 .create-build-explore-container {
@@ -127,7 +134,7 @@ body {
     width: 80%;
     height: 2px;
     border: 0;
-    background-color: orangered;
+    background-color: #CD4134;
 }
 
 .object-margin {
@@ -144,7 +151,7 @@ body {
 }
 
 .social-links li a i {
-    margin-top: 5px;
+    margin-top: 15px;
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -153,7 +160,7 @@ body {
     line-height: 7px;
     text-align: center;
     color: white;
-    background: orangered;
+    background: #CD4134;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -166,18 +173,19 @@ body {
 }
 
 .carousel-container {
-    margin: auto 0;
+    margin-top: 20px;
 }
 
 .carousel img {
     -o-object-fit: contain;
     object-fit: contain;
-    height: 200px;
+    height: 300px;
     min-width: 100%;
     max-width: none;
 }
 
 .opening-time-subheader {
+    margin-bottom: 15px;
     text-align: center;
     font-size: 1.0rem;  
     font-weight: 300;
@@ -195,7 +203,7 @@ body {
 }
 
 .day {
-    background-color: orangered;
+    background-color: #CD4134;
     color: black;
     padding: 10px 10px 10px 10px;
     text-align: center;
@@ -206,7 +214,7 @@ body {
     text-align: center;
     border-width:2px;
     border-style:solid;
-    border-color: orangered;
+    border-color: #CD4134;
     padding: 10px 10px 10px 10px;
 }
     
@@ -214,6 +222,10 @@ body {
     list-style-type: none;
     margin: 10px;
     overflow: auto;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .workshop-time {
@@ -249,3 +261,28 @@ body {
     }
 }
 
+.custom-href {
+    color: #1D759A;
+}
+
+.custom-href:hover {
+  color: #48AFDB;
+}
+
+/* href color
+
+a:link {
+  color: #1D759A;
+}
+
+a:visited {
+  color: #1D759A;
+}
+
+a:hover {
+  color: #48AFDB;
+}
+
+a:active {
+  color: #1D759A;
+} */
