@@ -239,6 +239,9 @@ ul {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
 
 @media (min-width: 800px) { 
     .workshop-timetable-day {
