@@ -1,11 +1,11 @@
 <h1>The Builders Shed</h1> 
 
-User Centric FrontEnd Development Milestone Project.
+<h2>User Centric FrontEnd Development Milestone Project.</h2>
 
-This site is about fictional workshop setup by someone who is passionate 
-about electronics and programming.
+<p>This site is about fictional workshop setup by someone who is passionate 
+about electronics and programming.</p>
 
-UX:
+<h2>UX:</h2>
 
 <p>The website showcases The Builders Shed, a workshop built by an electronics enthusiast, who wanted to create a place for people who wish to learn about electronics and programming but are not sure where to start.</p>
 <p>The websites purpose is to showcase the workshop, the tools and the available facilities. The idea is to create a safe and controlled environment where anyone can come to learn how to use tools such as soldering irons, oscilloscopes and power supply's and also learn to programme various languages.</p>
@@ -44,7 +44,7 @@ And were edited using <a href="https://www.online-image-editor.com/" rel="nofoll
 
 <h2>Features</h2>
 
-<p>Navbar - The Navbar was taken from the bootstarp example page and adapted for The Builders Shed page</p>
+<p>Navbar - The Navbar was taken from the bootstarp example page and adapted for The Builders Shed page. The navbar collapses down for a more compact mobile view.</p>
 
 <p>Home Page - The home page is designed to be the main landing page and too give you a breaff description about the builders shed</p>
 
@@ -52,19 +52,59 @@ And were edited using <a href="https://www.online-image-editor.com/" rel="nofoll
 From here you can find information what The Builders Shed has to offer, for example.</p>
 
 <ul>
-<li></li>
+<li>Tools and equipment for rental</li>
+<li>Image carousel</li>
+<li>Opening Times</li>
+<li>Tutorial description</li>
 </ul>
 
-*** To do ***:- 
+<p>Contact page - The contact page allows to communicate with the founders of The Builders Shed.</p>
 
-Services page should include.
-Opening times, guest talk times, lesson availability times
-    free to pop in
-    fees for guest talks
-    renting equipment: what we have - how much -- started
+<p>About page - The about page shows a small bio of each of The Builders Shed experts and their respective expertise.</p>
 
-A about page: More on who we are and how we've grown.
-Donations?
-Introduce the team.
+<p>Footer - Each page contains a footer which has the following information.</p>
 
-Used google fonts not font awesome.
+<ul>
+<li>The Builders Shed title</li>
+<li>Phone number</li>
+<li>Email address</li>
+<li>Postal address</li>
+<li>Social media bar with links to</li>
+<ul>
+    <li>Facebook link</li>
+    <li>Twitter link</li>
+    <li>LinkedIn link</li>
+    <li>Instagram link</li>
+    <li>YouTube link</li>
+</ul>
+
+<h2>Testing</h2>
+
+<p>The Builders Shed had been tested on various browsers, (Brave, Chrome, Chromium, Firefox) and across a variety of screen sizes.
+The Builders Shed works well and meets all expectations.</p>
+
+<p>The Builders shed code has been validated on the following.</p>
+<ul>
+    <li>
+        <p><a href="https://validator.w3.org/" rel="nofollow">W3C Mark-up Validation Service</a></p>
+    </li>
+    <li>
+        <p><a href="https://jigsaw.w3.org/css-validator/" rel="nofollow">W3C CSS Validation Service</a></p>
+    </li>
+</ul>
+
+<h2>Deployment</h2>
+
+<p>The Builders Shed was deployed using Github Pages, using the following steps.</p>
+<ul>
+<li>Navigate to <a href="https://github.com/Darian-Frey/The-Builders-Shed-Milestone-1">github.com/Darian-Frey/The-Builders-Shed-Milestone-1</a></li>
+<li>Go to settings</li>
+<li>scroll to GitHub Pages</li>
+<li>In source select Master and click save.</li>
+</ul>
+
+*** todo ***
+
+credits
+
+new wireframe for services.html
