@@ -27,6 +27,9 @@ UX:
     <li>
         <a href="https://fontawesome.com/" rel="nofollow">Font Awesome</a>
     </li>
+        <li>
+        <a href="https://fonts.google.com/" rel="nofollow">Google Fonts</a>
+    </li>
 </ul>
 
 <h2>Wireframe</h2>
@@ -37,13 +40,22 @@ UX:
 
 <p>All images are from <a href="https://unsplash.com/" rel="nofollow">Unsplash</a> <q>The internet’s source of freely-usable images.</q>
 And were edited using <a href="https://www.online-image-editor.com/" rel="nofollow">OIE</a> A free online image editor.</p>
+<p>Spelling and grammar was checked using <a href="https://www.reverso.net/spell-checker/english-spelling-grammar/" rel="nofollow">ReversoSpeller</a> an online grammar and spell checker.<p\>
+
+<h2>Features</h2>
+
+<p>Navbar - The Navbar was taken from the bootstarp example page and adapted for The Builders Shed page</p>
+
+<p>Home Page - The home page is designed to be the main landing page and too give you a breaff description about the builders shed</p>
+
+<p>Services Page - The Services page is where the bulk of the information is located.
+From here you can find information what The Builders Shed has to offer, for example.</p>
+
+<ul>
+<li></li>
+</ul>
 
 *** To do ***:- 
-Home, Services, Contact, About - done
-
-Change content page to services page. - done
-
-More information and images on the tools and equipment on the services page. - started
 
 Services page should include.
 Opening times, guest talk times, lesson availability times
@@ -51,22 +63,8 @@ Opening times, guest talk times, lesson availability times
     fees for guest talks
     renting equipment: what we have - how much -- started
 
-Move image carousel to services page. - done
-
-Contact page: 
-Text area to send a message. - done
-
-add contact information and address to footer of index.html
-
 A about page: More on who we are and how we've grown.
 Donations?
 Introduce the team.
 
 Used google fonts not font awesome.
-
-Open workshop - works
-Introduction to the Arduino - works
-Introduction to Python - works
-Introduction to Linux - works
-Introduction to soldering - works
-Introduction to the Raspberry PI - works
