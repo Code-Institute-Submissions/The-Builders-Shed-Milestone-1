@@ -20,7 +20,7 @@ about electronics and programming.</p>
 <p>As a hobbyist programmer this platform could be very useful in meeting other programmers and people within the software industry.</p>
 
 <h4>User - 3 Parent and child</h4>
-<p>As a parent who's child has shown an interest in computers, computer programming or electronics, The Builders Shed would be an ideal place to introduce them to experts within these fields</p>
+<p>As a parent who's child has shown an interest in computers, computer programming or electronics, The Builders Shed would be an ideal place to introduce them to experts within these fields.</p>
 
 <h4>User - 4 Project Builder</h4>
 <p>As someone already into electronics but wishing to start a project that requirers more advanced tools, ie: Oscilloscope, Signal Generator. The Builder Shed would be a place where they could rent this equipment for a modest price.</p>
@@ -57,7 +57,7 @@ about electronics and programming.</p>
 
 <h2>Wireframe</h2>
 
-<p>The wireframes were created using <a href="https://github.com/evolus/pencil/graphs/contributors" rel="nofollow">Pencil</a> <q>a free and opensource tool for making diagrams and GUI prototyping</q></p>
+<p>The wireframes were created using <a href="https://github.com/evolus/pencil/graphs/contributors" rel="nofollow">Pencil</a> <q>a free and opensource tool for making diagrams and GUI prototyping.</q></p>
 
 <h4>Home</h4>
 <img src="assets/wireframe/HomePage.jpg" alt="Wireframe of home page"> 
@@ -81,7 +81,7 @@ And were edited using <a href="https://www.online-image-editor.com/" rel="nofoll
 
 <p>Navbar - The Navbar was taken from the Bootstarp example page and adapted for The Builders Shed page. The navbar collapses down for a more compact mobile view.</p>
 
-<p>Home Page - The home page is designed to be the main landing page and too give you a brief description about the builders shed</p>
+<p>Home Page - The home page is designed to be the main landing page and too give you a brief description about the builders shed.</p>
 
 <p>Services Page - The Services page is where the bulk of the information is located.
 From here you can find information what The Builders Shed has to offer, for example.</p>
@@ -150,8 +150,8 @@ The Builders Shed works well and meets all expectations.</p>
 <ul>
     <li>Excellence Ilesanmi for his support and advice through this project.</li>
     <li><a href="https://courses.codeinstitute.net/">Code Institute</a> for this excellent course.</li>
-    <li><a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://www.w3schools.com/">W3Scools</a> for all the example code.</li>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://www.w3schools.com/">W3Schools</a> for all the example code.</li>
     <li><a href="https://www.youtube.com/">YouTube</a> for the endless streaming music.</li>
-    <li>And my partner for her near infinite tolerance of me obsessing over my code</li>
+    <li>And my partner for her near infinite tolerance of me obsessing over my code.</li>
 </ul>
 
